@@ -12,6 +12,7 @@
   height: 200px;
   padding: 20px;
   color: white;
+  text-align: center;
 }
 
 .App-title {
@@ -20,4 +21,17 @@
 
 .App-intro {
   font-size: large;
+}
+
+.button-body{
+  text-align: center;
+}
+
+.image-player{
+  text-align: center;
+}
+
+.img-player{
+  margin-top: 10px;
+  height:100px;
 }
