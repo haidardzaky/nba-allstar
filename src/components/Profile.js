@@ -43,7 +43,7 @@ export default class Profile extends Component {
       </div>
       <hr className="hr-profile"/>
       <div className="vote">
-        <button onClick={this.increaseVote}>VOTE</button>
+        <button className="button-profile" onClick={this.increaseVote}>VOTE</button>
         <VoteCount count={this.state.count}/>
       </div>
     </div>)

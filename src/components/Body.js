@@ -9,7 +9,7 @@ export default class Body extends Component {
   render() {
     return (<Router>
       <div>
-        <h3>Choose your favorite players !</h3>
+        <h3 className="upper-word">Choose your favorite players !</h3>
         <div className="button-body">
           <Button color="inverted blue">
             <Link to="/backcourt">Backcourt</Link>
